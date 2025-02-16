@@ -1,1 +1,3 @@
-# mynixos
+# mynixos❄
+
+personal NixOS config
