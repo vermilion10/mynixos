@@ -117,12 +117,15 @@
 	
 	#terminal use
 	neofetch #neofetch-unstable-2021-12-10
-	steam-run
 	#librechat-0.7.8
 	fish
 	nh #nix helper
 	
 	gemini-cli
+	
+	#gimang
+	steam
+	proton-ge-bin
 
   	# teks editor
   	vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
@@ -144,6 +147,15 @@
 
   
   # List services that you want to enable:
+  
+  #steam extracompat
+  programs.steam = {
+     enable = true;
+     extraCompatPackages = [
+        pkgs.steam
+     ];
+  };
+  
   
 
 
