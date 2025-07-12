@@ -124,8 +124,9 @@
 	gemini-cli
 	
 	#gimang
-	proton-ge-bin
-
+	steam
+	protonup-qt
+	
   	# teks editor
   	vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   	zed-editor #zed-editor-0.186.8
@@ -146,14 +147,6 @@
 
   
   # List services that you want to enable:
-  
-  #steam extracompat
-  programs.steam = {
-     enable = true;
-     extraCompatPackages = [
-        pkgs.steam
-     ];
-  };
   
   
 
