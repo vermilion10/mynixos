@@ -124,7 +124,6 @@
 	gemini-cli
 	
 	#gimang
-	steam
 	proton-ge-bin
 
   	# teks editor
